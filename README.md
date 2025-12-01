@@ -1,6 +1,6 @@
 # Portfolio Risk Analysis & Volatility Forecasting Dashboard
 
-A comprehensive Streamlit application for portfolio optimization, risk analysis, and volatility forecasting using GARCH and EWMA models.
+A Streamlit application for portfolio optimization, risk analysis, and volatility forecasting using GARCH and EWMA models.
 
 ## Features
 
@@ -73,7 +73,7 @@ Configure via the sidebar:
 ### GARCH Volatility Modeling
 - Automatic model order selection (AIC, BIC, HQIC)
 - ARCH effects testing (Engle's LM test)
-- Comprehensive diagnostics (Ljung-Box, Jarque-Bera)
+- Statistical test of autorcorrelation and normality of residuals (Ljung-Box, Jarque-Bera)
 - 30-day ahead volatility forecasts
 
 ### Portfolio Optimization
