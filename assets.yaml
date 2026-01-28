@@ -2752,6 +2752,172 @@ asset_categories:
         category: "Equity_Index_Futures"
         description: "Mini Dow Jones Industrial Average Futures"
 
+  # Brazilian Stocks
+  brazilian_stocks:
+    name: "Brazilian Stocks"
+    symbols:
+      # Retail
+      - symbol: "AMER3.SA"
+        name: "Americanas"
+        category: "BR_Retail"
+        description: "Americanas SA"
+      - symbol: "MGLU3.SA"
+        name: "Magazine Luiza"
+        category: "BR_Retail"
+        description: "Magazine Luiza SA"
+      - symbol: "ASAI3.SA"
+        name: "Assaí Atacadista"
+        category: "BR_Retail"
+        description: "Assaí Atacadista"
+      
+      # Real Estate & Construction
+      - symbol: "MRVE3.SA"
+        name: "MRV Engenharia"
+        category: "BR_Real_Estate"
+        description: "MRV Engenharia e Participacoes SA"
+      - symbol: "AMAR3.SA"
+        name: "Lojas Marisa"
+        category: "BR_Retail"
+        description: "Lojas Marisa SA"
+      - symbol: "ALOS3.SA"
+        name: "Allos"
+        category: "BR_Real_Estate"
+        description: "Allos SA (Shopping Malls)"
+      
+      # Financial Services
+      - symbol: "PSSA3.SA"
+        name: "Porto Seguro"
+        category: "BR_Insurance"
+        description: "Porto Seguro SA"
+      - symbol: "BBSE3.SA"
+        name: "BB Seguridade"
+        category: "BR_Insurance"
+        description: "BB Seguridade Participacoes SA"
+      - symbol: "BPAC11.SA"
+        name: "BTG Pactual"
+        category: "BR_Banking"
+        description: "Banco BTG Pactual SA"
+      - symbol: "ITUB4.SA"
+        name: "Itaú Unibanco"
+        category: "BR_Banking"
+        description: "Itau Unibanco Holding SA"
+      - symbol: "BIDI11.SA"
+        name: "Banco Inter"
+        category: "BR_Banking"
+        description: "Banco Inter SA"
+      
+      # Healthcare
+      - symbol: "HAPV3.SA"
+        name: "Hapvida"
+        category: "BR_Healthcare"
+        description: "Hapvida Participacoes e Investimentos SA"
+      - symbol: "RDOR3.SA"
+        name: "Rede D'Or"
+        category: "BR_Healthcare"
+        description: "Rede D'Or Sao Luiz SA"
+      
+      # Food & Agribusiness
+      - symbol: "JBSS3.SA"
+        name: "JBS"
+        category: "BR_Food"
+        description: "JBS SA"
+      
+      # Energy & Commodities
+      - symbol: "VALE3.SA"
+        name: "Vale"
+        category: "BR_Mining"
+        description: "Vale SA"
+      - symbol: "PETR4.SA"
+        name: "Petrobras PN"
+        category: "BR_Energy"
+        description: "Petroleo Brasileiro SA - Petrobras PN"
+      - symbol: "PRIO3.SA"
+        name: "PRIO"
+        category: "BR_Energy"
+        description: "PetroRio SA"
+      
+      # Chemicals
+      - symbol: "BRKM5.SA"
+        name: "Braskem"
+        category: "BR_Chemicals"
+        description: "Braskem SA (Note: Debt focus)"
+      
+      # Telecom
+      - symbol: "VIVT3.SA"
+        name: "Vivo"
+        category: "BR_Telecom"
+        description: "Telefonica Brasil SA"
+      
+      # Infrastructure
+      - symbol: "ECOR3.SA"
+        name: "Ecorodovias"
+        category: "BR_Infrastructure"
+        description: "Ecorodovias Infraestrutura e Logistica SA"
+      
+      # Services & Mobility
+      - symbol: "RENT3.SA"
+        name: "Localiza"
+        category: "BR_Services"
+        description: "Localiza Rent a Car SA"
+      - symbol: "MOVI3.SA"
+        name: "Movida"
+        category: "BR_Services"
+        description: "Movida Participacoes SA"
+      
+      # Utilities
+      - symbol: "ELET3.SA"
+        name: "Eletrobras"
+        category: "BR_Utilities"
+        description: "Centrais Eletricas Brasileiras SA"
+
+  # International Stocks (USA)
+  international_stocks:
+    name: "International Stocks"
+    symbols:
+      # Technology - Software
+      - symbol: "ORCL"
+        name: "Oracle"
+        category: "US_Software"
+        description: "Oracle Corporation"
+      - symbol: "ADBE"
+        name: "Adobe"
+        category: "US_Software"
+        description: "Adobe Inc."
+      
+      # Technology - Semiconductors
+      - symbol: "AMD"
+        name: "AMD"
+        category: "US_Semiconductors"
+        description: "Advanced Micro Devices Inc."
+      - symbol: "MU"
+        name: "Micron"
+        category: "US_Semiconductors"
+        description: "Micron Technology Inc."
+      - symbol: "INTC"
+        name: "Intel"
+        category: "US_Semiconductors"
+        description: "Intel Corporation"
+      - symbol: "QCOM"
+        name: "Qualcomm"
+        category: "US_Semiconductors"
+        description: "Qualcomm Inc."
+      
+      # Consumer & Industrial
+      - symbol: "NKE"
+        name: "Nike"
+        category: "US_Consumer"
+        description: "Nike Inc."
+      - symbol: "GE"
+        name: "General Electric"
+        category: "US_Industrial"
+        description: "General Electric Company"
+      
+      # Financial Services (US-listed Brazilian)
+      - symbol: "XP"
+        name: "XP Inc"
+        category: "BR_Financial_ADR"
+        description: "XP Inc. (Brazilian fintech, US-listed)"
+
   # Alternative Investments
   alternative_investments:
     name: "Alternative Investments"
